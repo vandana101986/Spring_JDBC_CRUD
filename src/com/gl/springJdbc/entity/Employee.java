@@ -34,8 +34,7 @@ public class Employee {
 	
 	@Override
 	public String toString() {
-		return "Employee [name : "+name+",\n email : "+email+
-				",\n address : "+address+",\n phoneno : "+phoneno+"]";
+		return "\n[name : "+name+",email : "+email+ ",address : "+address+",phoneno : "+phoneno+"]";
 	}
 
 }
